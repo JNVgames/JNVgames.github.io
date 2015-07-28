@@ -1,0 +1,23 @@
+#header-div {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+
+#jnv-words {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}	
+
+#star-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+html, body, header, #header-div, #star-background {
+	height: 100%;
+}
