@@ -8,20 +8,19 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif;
 }
+
 /*******************************************************
  HEADER
  ******************************************************/
 #header-div {
-	position: absolute;
-	left: 0;
-	top: 0;
 	background-image: url("../img/star-background.jpg");
-	background-size: cover;
+	background-size: cover;	
 	text-align: center;
+	width: 100%;
 }
 
 #jnv-words {
-	margin-top: 20%;
+	margin-top: 10%;
 	width: 100%;
 }
 
@@ -31,10 +30,11 @@ html, body, header, #header-div, #star-background {
 
 #header-div h2 {
 	color: white;
-	font-size: 2em;
+	font-size: 2.3em;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	display: block;
 }
 
 #learn-button {
@@ -46,16 +46,31 @@ html, body, header, #header-div, #star-background {
 	border-color: white;
 	border-radius: 4px;
 	padding: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 2em;
 }
 
 /*******************************************************
  FIRST-CONTENT
 *******************************************************/
 #first-content {
-	background-color: #222;
+	background-color: #111;
 	margin: 0;
 }
 
-h1 {
+#first-content h1 {
 	margin: 0;
+	color: #cc0000;
+	color: white;
+	font-weight: 600;
+	font-size: 2em;
+	padding: 20px 0 0 10px;
+}
+
+#first-content p {
+	color: #cc0000;
+	font-size: 1.5em;
+	padding: 10px;
+	color: #bbb;
 }
