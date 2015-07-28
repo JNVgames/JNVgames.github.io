@@ -1,23 +1,61 @@
+/*******************************************************
+ GENERAL
+ ******************************************************/
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+/*******************************************************
+ HEADER
+ ******************************************************/
 #header-div {
-	position: relative;
+	position: absolute;
 	left: 0;
 	top: 0;
+	background-image: url("../img/star-background.jpg");
+	background-size: cover;
+	text-align: center;
 }
 
 #jnv-words {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-}	
-
-#star-background {
-	position: absolute;
-	top: 0;
-	left: 0;
+	margin-top: 20%;
 	width: 100%;
 }
 
 html, body, header, #header-div, #star-background {
 	height: 100%;
+}
+
+#header-div h2 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+#learn-button {
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+/*******************************************************
+ FIRST-CONTENT
+*******************************************************/
+#first-content {
+	background-color: #222;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
 }
