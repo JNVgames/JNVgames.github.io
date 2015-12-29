@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background: url("../img/star-background.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
