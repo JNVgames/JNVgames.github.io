@@ -92,6 +92,11 @@ body {
 /*
  * Header
  */
+.site-logo {
+  width: 426px;
+  height: 123px;
+}
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -195,6 +200,10 @@ body {
 /* Home */
 .top {
   top: 0;
+}
+
+/* Games */
+.carousel-control {
 }
 
 /* About Us */
